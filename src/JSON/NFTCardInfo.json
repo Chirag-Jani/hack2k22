@@ -1,0 +1,30 @@
+[
+  {
+    "imgsrc": "",
+    "name": "NFT 1",
+    "basePrice": "$50.00",
+    "location": "Surat",
+    "nftPage": "/n1"
+  },
+  {
+    "imgsrc": "",
+    "name": "NFT 2",
+    "basePrice": "$520.00",
+    "location": "Vadodara",
+    "nftPage": "/n2"
+  },
+  {
+    "imgsrc": "",
+    "name": "NFT 3",
+    "basePrice": "$140.00",
+    "location": "Bhavnagar",
+    "nftPage": "/n3"
+  },
+  {
+    "imgsrc": "",
+    "name": "NFT 4",
+    "basePrice": "$55.00",
+    "location": "Ahemdabad",
+    "nftPage": "/n4"
+  }
+]
