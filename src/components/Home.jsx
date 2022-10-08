@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import nftImage from "./img/nft.jpg";
+import nftImage from "./img/nft.webp";
 
 function Home() {
   return (

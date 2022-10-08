@@ -1,7 +1,9 @@
 import React from "react";
 import n3 from "./img/Patola.png";
+import patoluPatan from "./img/patolu_patan.png";
+import SubNFT from "./SubNFT";
 
-function N1() {
+function N3() {
   return (
     <div className="container-fluid w-50 m-auto p-5 my-5 text-center">
       <h1>Patola</h1>
@@ -37,14 +39,28 @@ function N1() {
         *Information verified by Govt. of Gujarat <br />
         <a href="">Click here</a> to know more
       </p>
-      <a
+      {/* <a
         href="https://testnet.rarible.com/token/polygon/0x136499d84b9fc6cb28e9fa65031550ee68de03a5:16320856076916042070443614083576056097618560412501137809575957626053018468930?tab=overview"
         className="btn btn-primary my-2"
       >
         Purchase this NFT
-      </a>
+      </a> */}
+
+      <h3 className="text-start text-white my-5">
+        Catagories to select NFT from:
+      </h3>
+
+      <div className="d-flex">
+        <SubNFT
+          typeImg={patoluPatan}
+          typeName="Patan nu Patolu"
+          typePrice="99.99"
+          typeLink="https://testnet.rarible.com/token/polygon/0x136499d84b9fc6cb28e9fa65031550ee68de03a5:16320856076916042070443614083576056097618560412501137809575957626053018468940?tab=overview"
+          typeLocation="Patan"
+        />
+      </div>
     </div>
   );
 }
 
-export default N1;
+export default N3;
