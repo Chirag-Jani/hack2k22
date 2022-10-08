@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function NFTCard(props) {
-  const { imgsrc, name, basePrice, location, nftPage } = props;
+  const { imgsrc, name, basePrice, location, nftPage, link } = props;
   return (
     <div className="">
       <div className="nft_top d-flex justify-content-evenly flex-wrap">
@@ -27,7 +27,7 @@ function NFTCard(props) {
               Location: <h4>{location}</h4>
             </span>
             <span>
-              <a href="/" className="btn btn-primary p-2 mt-3">
+              <a href={link} className="btn btn-primary p-2 mt-3">
                 Buy Now
               </a>
               <Link to={nftPage} className="btn btn-primary p-2 mt-3 mx-2">

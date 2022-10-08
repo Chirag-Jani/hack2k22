@@ -32,9 +32,12 @@ function N1() {
       </p>
       <p className="text-start mt-5 fw-bold">
         *Information verified by Govt. of Gujarat <br />
-        <a href="">Click here</a> to know more
+        <a href="/">Click here</a> to know more
       </p>
-      <a href="" className="btn btn-primary my-2">
+      <a
+        href="https://testnet.rarible.com/token/polygon/0x136499d84b9fc6cb28e9fa65031550ee68de03a5:16320856076916042070443614083576056097618560412501137809575957626053018468934?tab=overview"
+        className="btn btn-primary my-2"
+      >
         Purchase this NFT
       </a>
     </div>
