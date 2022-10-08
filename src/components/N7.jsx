@@ -1,35 +1,35 @@
 import React from "react";
-import n2 from "./img/handblock painting.png";
+import n7 from "./img/ZariWork.png";
 
-function N1() {
+function N7() {
   return (
     <div className="container-fluid w-50 m-auto p-5 my-5 text-center">
-      <h1>Hand Block Painting</h1>
-      <img src={n2} alt="NFT Image" className="my-2" />
-      <h3 className="text-start my-4">
-        Location: Kutch district, Teracotta: Chotta Udaipur
-      </h3>
+      <h1>Zari</h1>
+      <img src={n7} alt="NFT Image" className="my-2" />
+      <h3 className="text-start my-4">Location: Surat</h3>
       <h3 className="text-start my-4">Price: $333.33</h3>
 
       <h4 className="text-start my-4">Information:</h4>
       <p className="my-2 text-start">
-        Gujarat, the oldest block printing centre in the world, is still the
-        major producer of block prints. Twinkling stars in the clear sky,
-        Egyptian tombs, patterns of abstracts and dense forest with beautiful
-        colour combination are amongst the known block printing patterns.
-        <br /> Following types of hand block prints are famous in Gujarat:
+        Zari embroidery is one of the oldest handicraft forms of Gujarat.
+        Historians say that the tradition of the Zari was started during the
+        Mughal era. Zari was the favourite fabric of Mughals and artisans used
+        to decorate it further with motifs and patterns resonating the Mughal
+        glory. Surat in Gujarat is the largest producer of Zari sarees & Zari
+        made-ups like cantile, laces, ribbons, borders, trims, fringes, edges,
+        and cords. Listed below are different kinds of zari work:
         <br />
-        Ajarakh printing of Dhamadka and Ajarakhpur in Kutch
+        Kataoki Bel <br />
+        Kamdani Mina Work <br />
+        Makaish Tilla or Marori Work <br />
+        Kinari work <br />
+        Gota Work <br />
         <br />
-        Matani-Pachedi or Kalamkari of Gujarat
-        <br />
-        Vegetable 'prints from Dessa, Ahmedabad and Kutch
-        <br />
-        'Batik' prints from Bhujpur, Mundra and Mandvi villages of Kutch
-        'Saudagiri' Prints from Ahmedabad
-        <br />
-        Where to Find: Kutch, Ahmedabad, and Jamnagar Family Takes Hand Block
-        Printing Global, Earns Rs 1.5 Crore/Year
+        Zari Silk (India)'s operating revenues range is INR 1 cr - 100 cr for
+        the financial year ending on 31 March, 2021. It's EBITDA has decreased
+        by -108.31 % over the previous year. At the same time, it's book
+        networth has decreased by -356.56 %. Other performance and liquidity
+        ratios are available here
       </p>
       <h4 className="text-start my-4">Importance of it:</h4>
       <p className="my-2 text-start">
@@ -53,4 +53,4 @@ function N1() {
   );
 }
 
-export default N1;
+export default N7;

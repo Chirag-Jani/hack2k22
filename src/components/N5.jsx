@@ -1,35 +1,35 @@
 import React from "react";
-import n2 from "./img/handblock painting.png";
+import n5 from "./img/tiediebandhani.png";
 
-function N1() {
+function N5() {
   return (
     <div className="container-fluid w-50 m-auto p-5 my-5 text-center">
-      <h1>Hand Block Painting</h1>
-      <img src={n2} alt="NFT Image" className="my-2" />
-      <h3 className="text-start my-4">
-        Location: Kutch district, Teracotta: Chotta Udaipur
-      </h3>
+      <h1>Tie - dye – Bandhani</h1>
+      <img src={n5} alt="NFT Image" className="my-2" />
+      <h3 className="text-start my-4">Location: Jamnagar, Mandvi and Bhuj</h3>
       <h3 className="text-start my-4">Price: $333.33</h3>
+
+      <h5 className="text-start"></h5>
 
       <h4 className="text-start my-4">Information:</h4>
       <p className="my-2 text-start">
-        Gujarat, the oldest block printing centre in the world, is still the
-        major producer of block prints. Twinkling stars in the clear sky,
-        Egyptian tombs, patterns of abstracts and dense forest with beautiful
-        colour combination are amongst the known block printing patterns.
-        <br /> Following types of hand block prints are famous in Gujarat:
+        Bandhej or Bandhani or tie-dye products are best produced in Jamnagar
+        and Kutch region of Gujarat. One can see glimpses of Gujarat culture in
+        the dress materials made of tie-dye technique. The Bandhej garments are
+        available in many patterns and each one of them has a different. See
+        below for patterns details:
         <br />
-        Ajarakh printing of Dhamadka and Ajarakhpur in Kutch
+        Chokidal: Primary pattern of square, elephants and other animals <br />
+        Kambaliya: Pattern in the centre and different designs on the border{" "}
         <br />
-        Matani-Pachedi or Kalamkari of Gujarat
-        <br />
-        Vegetable 'prints from Dessa, Ahmedabad and Kutch
-        <br />
-        'Batik' prints from Bhujpur, Mundra and Mandvi villages of Kutch
-        'Saudagiri' Prints from Ahmedabad
-        <br />
-        Where to Find: Kutch, Ahmedabad, and Jamnagar Family Takes Hand Block
-        Printing Global, Earns Rs 1.5 Crore/Year
+        Where to Find: Jamnagar, Mandvi and Bhuj <br />
+        Printed Cotton Tie And Dye Bandhani Fabric, GSM: 150 GSM <br />
+        ₹ 120/ meter Get Latest Price <br />
+        Brand = Vandana Handicraft <br />
+        Pattern = Printed <br />
+        Fabric = Cotton <br />
+        GSM = 150 GSM <br />
+        Width = 45 Inch
       </p>
       <h4 className="text-start my-4">Importance of it:</h4>
       <p className="my-2 text-start">
@@ -53,4 +53,4 @@ function N1() {
   );
 }
 
-export default N1;
+export default N5;

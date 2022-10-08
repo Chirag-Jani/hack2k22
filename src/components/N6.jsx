@@ -1,35 +1,21 @@
 import React from "react";
-import n2 from "./img/handblock painting.png";
+import n6 from "./img/Warli Painting.png";
 
-function N1() {
+function N6() {
   return (
     <div className="container-fluid w-50 m-auto p-5 my-5 text-center">
-      <h1>Hand Block Painting</h1>
-      <img src={n2} alt="NFT Image" className="my-2" />
-      <h3 className="text-start my-4">
-        Location: Kutch district, Teracotta: Chotta Udaipur
-      </h3>
+      <h1>Borders of Gujarat</h1>
+      <img src={n6} alt="NFT Image" className="my-2" />
+      <h3 className="text-start my-4">Location: Borders of Gujarat</h3>
       <h3 className="text-start my-4">Price: $333.33</h3>
 
       <h4 className="text-start my-4">Information:</h4>
       <p className="my-2 text-start">
-        Gujarat, the oldest block printing centre in the world, is still the
-        major producer of block prints. Twinkling stars in the clear sky,
-        Egyptian tombs, patterns of abstracts and dense forest with beautiful
-        colour combination are amongst the known block printing patterns.
-        <br /> Following types of hand block prints are famous in Gujarat:
-        <br />
-        Ajarakh printing of Dhamadka and Ajarakhpur in Kutch
-        <br />
-        Matani-Pachedi or Kalamkari of Gujarat
-        <br />
-        Vegetable 'prints from Dessa, Ahmedabad and Kutch
-        <br />
-        'Batik' prints from Bhujpur, Mundra and Mandvi villages of Kutch
-        'Saudagiri' Prints from Ahmedabad
-        <br />
-        Where to Find: Kutch, Ahmedabad, and Jamnagar Family Takes Hand Block
-        Printing Global, Earns Rs 1.5 Crore/Year
+        Warli Painting is a tribal art done by the tribes nestled in the border
+        area of Gujarat. Through these paintings, tribes express their beliefs,
+        traditions and customs. The whims and moods of tribal life make for
+        interesting themes, which is why Warli Paintings are much more than
+        designs on walls they are authentic depictions of a way of life.
       </p>
       <h4 className="text-start my-4">Importance of it:</h4>
       <p className="my-2 text-start">
@@ -53,4 +39,4 @@ function N1() {
   );
 }
 
-export default N1;
+export default N6;
